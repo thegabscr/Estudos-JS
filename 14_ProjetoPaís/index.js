@@ -25,7 +25,7 @@ function Procurar() {
             capital.innerHTML = data[0].capital[0]
             cont.innerHTML = data[0].continents[0]
             pop.innerHTML = data[0].population
-            bandeira.scr = data[0].flags.svg
+            bandeira.src = data[0].flags.svg
 
         })
 }
