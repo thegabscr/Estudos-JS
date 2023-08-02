@@ -70,6 +70,7 @@ header {
     padding-left: 15px;
     padding-bottom: 5px;
     text-decoration: underline;
+    text-align: center;
 }
 
 #video {
@@ -103,7 +104,7 @@ header {
     color: #FFD900;
     padding: 10px;
     margin-left: 20px;
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 button {
