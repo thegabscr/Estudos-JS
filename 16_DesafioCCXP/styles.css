@@ -90,7 +90,7 @@ header {
     padding-bottom: 150px;
 }
 
-.ing {
+/* .ing {
     margin: 15px;
 }
 
@@ -98,7 +98,7 @@ header {
     cursor: pointer;
     transform: translateY(-7px);
     transition-duration: 0.4s;
-}
+} */
 
 #subtitulo-ing {
     color: #FFD900;
@@ -115,12 +115,45 @@ button {
     width: 300px;
     height: 70px;
     font-size: 30px;
-    margin-top: 10rem;
+    margin-top: 11rem;
+
+}
+
+input {
+    background: #514988;
+    border-radius: 10px;
+    color: #ffffff;
+    border: 0pt;
+    margin: 30px;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#email {
+    padding-left: 15px;
+}
+
+#enviar:hover {
+    box-shadow: 0px 4px 10px 0px grey;
+    transform: translateY(-2px);
+    transition-duration: 0.3s;
+    cursor: pointer;
+    color: #FFD900
 }
 
 button:hover {
-    transform: translateY(-7px);
-    transition-duration: 0.6s;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 10px 0px grey;
+    transition-duration: 0.3s;
     cursor: pointer;
     color: #FFD900
+}
+
+.card-highlight {
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+.card-selected {
+    border: 5px solid green;
 }

@@ -50,19 +50,30 @@
                 <strong> AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE! </strong>
             </div>
             <div id="ingressos">
-                <img class="ing" src="qui.svg" alt="Imagem Ingresso de Quinta Feira">
-                <img class="ing" src="sex.svg" alt="Imagem Ingresso de Sexta Feira">
-                <img class="ing" src="sab.svg" alt="Imagem Ingresso de Sabado">
-                <img class="ing" src="dom.svg" alt="Imagem Ingresso de Domingo">
+                <img class="card-ingressos" src="qui.svg" onclick="selectCard('#quinta')"
+                    onmouseover="highlightCard('#quinta')" onmouseout="highlightCard('#quinta')" id="quinta" alt="">
+                <img class="card-ingressos" src="sex.svg" onclick="selectCard('#sexta')"
+                    onmouseover="highlightCard('#sexta')" onmouseout="highlightCard('#sexta')" id="sexta" alt="">
+                <img class="card-ingressos" src="sab.svg" onclick="selectCard('#sabado')"
+                    onmouseover="highlightCard('#sabado')" onmouseout="highlightCard('#sabado')" id="sabado" alt="">
+                <img class="card-ingressos" src="dom.svg" onclick="selectCard('#domingo')"
+                    onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')" id="domingo" alt="">
             </div>
         </div>
         <div id="botao-compra">
-            <button> GARANTA O SEU! </button>
+            <button onclick="showSelectedCards()"> GARANTA O SEU! </button>
         </div>
     </section>
 
+    <div>
+        <form action="https://www.google.com">
+            <input id="email" type="email" placeholder="Seu e-mail" required>
+            <input id="enviar" type="submit">
+        </form>
+    </div>
 
-    <script src="cronometro.js"> </script>
+    <script src="cronometro.js"></script>
+    <script src="main.js"></script>
 </body>
 
 
